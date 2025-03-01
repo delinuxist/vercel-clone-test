@@ -32,8 +32,13 @@ export default function SecondaryFooter() {
             </span>
           </p>
           <div className='flex gap-3'>
-            <Button className='rounded-full '>Start Deploying</Button>
-            <Button className='rounded-full dark:invert border border-muted-foreground'>
+            <Button className='rounded-full hover:cursor-pointer '>
+              Start Deploying
+            </Button>
+            <Button
+              variant={"outline"}
+              className=' rounded-full  hover:cursor-pointer'
+            >
               Talk to an Expert
             </Button>
           </div>
@@ -46,7 +51,10 @@ export default function SecondaryFooter() {
             <span className='text-foreground'>Explore Vercel Enterprise</span>{" "}
             with an interactive product tour, trial, or a personalized demo
           </p>
-          <Button className='dark:invert border border-muted-foreground rounded-full w-fit'>
+          <Button
+            variant={"outline"}
+            className=' rounded-full  hover:cursor-pointer w-fit'
+          >
             Explore Enterprice
           </Button>
         </div>

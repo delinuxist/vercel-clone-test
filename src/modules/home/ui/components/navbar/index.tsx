@@ -13,7 +13,7 @@ export default function Navbar() {
             <div>
               <Link href={"/"} className='flex items-center'>
                 <Image
-                  className=''
+                  className='bg-foreground'
                   src='/vercel.svg'
                   alt='Vercel logomark'
                   width={20}

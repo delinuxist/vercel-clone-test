@@ -7,12 +7,18 @@ export default function TrustSection() {
     <section className='border border-t-0 p-12 flex flex-col items-center justify-center'>
       <div className='text-xl font-semibold flex gap-3'>
         Scale your{" "}
-        <Button className='dark:invert rounded-full border border-muted-foreground'>
+        <Button
+          variant={"outline"}
+          className=' rounded-full  hover:cursor-pointer'
+        >
           {" "}
           <Building2Icon className='size-4 mr-2' /> Enterprise
         </Button>
         without compromising{" "}
-        <Button className='dark:invert rounded-full border border-muted-foreground'>
+        <Button
+          variant={"outline"}
+          className=' rounded-full  hover:cursor-pointer'
+        >
           {" "}
           <ShieldCheckIcon className='size-4 mr-2' />
           Security

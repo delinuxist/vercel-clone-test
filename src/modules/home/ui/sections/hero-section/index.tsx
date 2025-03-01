@@ -1,5 +1,5 @@
-import { buttonVariants } from "@/components/ui/button";
-import Link from "next/link";
+import { Button } from "@/components/ui/button";
+
 import React from "react";
 import Image from "next/image";
 import LogoPrisma from "@/modules/home/ui/sections/hero-section/logo-prisma";
@@ -28,12 +28,7 @@ export default function HeroSection() {
               build, scale, and secure a faster, more personalized web.
             </p>
             <div className='flex gap-6 mt-3'>
-              <Link
-                href={"#"}
-                className={buttonVariants({
-                  className: "rounded-full! font-semibold px-5!",
-                })}
-              >
+              <Button className='rounded-full'>
                 <Image
                   className='dark:invert'
                   src='/vercel.svg'
@@ -42,16 +37,13 @@ export default function HeroSection() {
                   height={16}
                 />{" "}
                 Start Deploying
-              </Link>
-              <Link
-                href={"#"}
-                className={buttonVariants({
-                  className:
-                    "rounded-full! font-semibold dark:invert border-muted-foreground! border!",
-                })}
+              </Button>
+              <Button
+                variant={"outline"}
+                className='rounded-full hover:cursor-pointer'
               >
                 Get a Demo
-              </Link>
+              </Button>
             </div>
           </div>
         </div>
