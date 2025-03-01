@@ -5,7 +5,7 @@ import NavbarButtons from "@/modules/home/ui/components/navbar/navbar-buttons";
 
 export default function Navbar() {
   return (
-    <div className='min-h-16 max-w-full px-6 sticky top-0 z-[101] flex  justify-center border items-center'>
+    <div className='min-h-16 max-w-full px-6 sticky top-0 z-[101] flex  justify-center border items-center bg-background'>
       <header className='max-w-7xl mx-auto  w-full'>
         <div className='flex justify-between items-center'>
           <div className='flex gap-8'>
